@@ -2,9 +2,9 @@ version: '2.2'
 
 services:
   nginx-proxy:
-    image: jwilder/nginx-proxy
+    image: nginxproxy/nginx-proxy:alpine
     ports:
-      - ${PORT}:80
+      - "80:80"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
       - ./custom.conf:/etc/nginx/conf.d/custom.conf
