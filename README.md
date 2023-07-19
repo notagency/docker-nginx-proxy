@@ -1,10 +1,8 @@
-# NGINX Reverse Proxy For Docker
+Nginx proxy with docker-compose
 
-Used to manage virtual hosts
+See https://hub.docker.com/r/nginxproxy/nginx-proxy 
 
-See https://hub.docker.com/r/jwilder/nginx-proxy
-
-## Usage
+### Usage
 
 ```bash
 docker-compose up -d
