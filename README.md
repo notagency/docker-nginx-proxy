@@ -6,5 +6,6 @@ See https://hub.docker.com/r/nginxproxy/nginx-proxy
 
 ```bash
 cp .env.example .env
+docker network create proxy_nw
 docker-compose up -d
 ```
